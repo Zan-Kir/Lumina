@@ -1,0 +1,36 @@
+:root {
+    --cinzinha: #626262;
+    --branco: #FFFFFF;
+    --cor-5: #2FAC66;
+    --fundo-1: #262625;
+    --ativo: #12A19A;
+}
+
+.navbar {
+    background-color: var(--fundo-1);
+}
+
+.navbar-brand img {
+    width: 223.636px;
+    height: 60px;
+    margin: 25px 0px 15px 2.97%;
+}
+
+.logo {
+    display: flex;
+    justify-self: flex-start;
+}
+
+.nav-link {
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--ativo);
+}
