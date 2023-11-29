@@ -6,8 +6,12 @@
     --ativo: #12A19A;
 }
 
-.navbar {
+.body {
     background-color: var(--fundo-1);
+}
+
+.navbar {
+    flex-wrap: nowrap;
 }
 
 .navbar-brand img {
@@ -16,21 +20,80 @@
     margin: 25px 0px 15px 2.97%;
 }
 
-.logo {
-    display: flex;
-    justify-self: flex-start;
-}
-
 .nav-link {
     color: white;
     text-align: center;
     font-family: Poppins;
     font-size: 26px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
 }
 
 .navbar-nav .nav-link.active {
     color: var(--ativo);
+    font-weight: 700;
+}
+
+#buscar {
+    width: auto;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid var(--cinzinha);
+    color: var(--cinzinha);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border-radius: inherit;
+}
+
+#loginBtn {
+    width: 179px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 8px 39px;
+    border-radius: 15px;
+    border: none;
+    color: var(--branco);
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.50);
+    background: rgb(47, 172, 102);
+    background: linear-gradient(133deg,
+            rgba(47, 172, 102, 1) 0%,
+            rgba(41, 35, 92, 1) 50%,
+            rgba(41, 35, 92, 1) 61%,
+            rgba(47, 172, 102, 1) 100%);
+    color: var(--branco);
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer {
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.50);
+}
+
+.rodape {
+    color:var(--branco)
+}
+
+.py-4 {
+    padding-bottom: 0px;
+}
+
+.mapinha {
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+@media (max-width:1999px) {
+    .sidebar{
+        background-color:#2626253c;
+    }
 }
