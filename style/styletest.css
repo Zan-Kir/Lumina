@@ -201,3 +201,65 @@ footer {
         max-height: 100%;
       }
   }
+
+
+.maisLidas{
+    width: 402px;
+    height: 550px;
+    border-radius: 15px;
+    background: url(/img/fundoBlog.png);
+    background-size: contain;
+    margin-left: 40px;
+  }
+
+.maisLidas h2{
+    width: 250px;
+    height: 70px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+
+.maisLidas li{
+    width: 250px;
+    height: 70px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 65px;
+}
+
+.blog img{
+    margin-right: 16px;
+}
+
+.textoBlog h2{
+    color: #12A19A;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+  }
+
+.textoBlog p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+  }
+  
