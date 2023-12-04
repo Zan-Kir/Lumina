@@ -1,5 +1,5 @@
 {
-  let carouselInner = document.querySelector(".bordas");
+  let carouselInner = document.querySelector(".carouselBlog");
   let carouselControlNext = document.querySelector(".proximoBlog");
   let carouselControlPrev = document.querySelector(".anteriorBlog");
   let carouselWidth = carouselInner.scrollWidth;
