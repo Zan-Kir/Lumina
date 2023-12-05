@@ -4,6 +4,7 @@
     --cor-5: #2FAC66;
     --fundo-1: #262625;
     --ativo: #12A19A;
+    --bs-body-bg: #40403F;
 }
 
 .body {
@@ -256,6 +257,26 @@ h1 {
     }
 }
 
+@media (min-width: 1110px) {
+
+    .nossaEquipe {
+        padding: 0 8% 3% 8%;
+    }
+    .nossaEquipe .sobreNos {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nossaEquipe .membro {
+        width: 16.6667%
+    }
+
+    .nossaEquipe h3, .nossaEquipe p {
+        margin:0 10px
+    }
+    
+}
+
 @media (min-width: 768px) {
 
     .carouselBlog {
@@ -276,8 +297,6 @@ h1 {
     }
 
     .itemBlog .card .img-wrapper {
-        /* max-width: 100%; */
-        /* height: 13em; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -285,6 +304,28 @@ h1 {
 
     .imgBlog {
         width: 100%;
+    }
+
+    .sobreTexto {
+        padding: 8% 50% 8% 5%;
+    }
+
+    .missaoVisaoValores {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 6rem;
+    }
+
+    .missaoVisaoValores .itens {
+        width: 25%
+    }
+
+    .textoParcerias {
+        padding: 2% 8% 10% 50%;
+    }
+
+    .faleConosco .form {
+        padding: 2% 50% 3% 8%;
     }
 }
 
@@ -362,3 +403,189 @@ h1 {
     text-transform: capitalize;
     margin-top: 16px;
 }
+
+.sobreEmpresa {
+    width: 100%;
+    background-image: linear-gradient(0deg, var(--fundo-1) 25%, #ffffff00 50%), url(../img/sobreEmpresa.png);
+    background-position: top right 0px;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+.sobreTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(90deg, var(--fundo-1) 50%, #ffffff00 100%);
+}
+
+.sobreTexto h2 {
+    color: var(--branco);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5%;
+}
+
+.sobreTexto p {
+    color: var(--branco);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5%;
+}
+
+.equipe {
+    background-position: center;
+    background: linear-gradient(180deg, rgba(38, 38, 37, 0.00) 0%, #262625 100%), url(../img/fundoEquipe.png);
+    background-size: cover;
+}
+
+.equipe h2 {
+    z-index: 2;
+    color: var(--branco);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.equipe h3 {
+    color: var(--branco);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.equipe p {
+    color: var(--cinzinha);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nossaEquipe .sobreNos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nossaEquipe .membro {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nossaEquipe h3, .nossaEquipe p {
+    margin:0 10px
+}
+
+
+.missaoVisaoValores {
+    margin-top: 3rem;
+}
+
+.missaoVisaoValores h2 {
+    color: var(--ativo);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.missaoVisaoValores p,
+.missaoVisaoValores li {
+    color: var(--branco);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.parcerias {
+    background-image: linear-gradient(0deg, var(--fundo-1) 10%, #ffffff00 50%), url(../img/parcerias.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.parcerias .textoParcerias h2 {
+    color: var(--branco);
+    text-align: right;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.parcerias .textoParcerias p {
+    color: var(--branco);
+    text-align: right;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding:15px;
+}
+
+.faleConosco {
+    background-image: linear-gradient(0deg, var(--fundo-1) 10%, #ffffff00 50%), url(../img/faleConosco.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.faleConosco .formSobre {
+    padding: 15px;
+}
+.faleConosco h2 {
+    color: var(--branco);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.faleConosco input,
+.faleConosco textarea {
+    border: none;
+    background-color: #40403F;
+    border-radius: 15px;
+}
+
+.faleConosco label {
+    color: var(--cinzinha, #626262) !important;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 1rem 1.75rem 0.25rem 1.75rem;
+    transform-origin: 50% 50%;
+    height:initial;
+}
+
+.formSobre .form-control {
+    color: rgb(165, 165, 165) ;
+}
+
+
+
