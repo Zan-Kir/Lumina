@@ -258,3 +258,10 @@
     margin-top: 20px;
     border-radius: 15px;
 }
+
+.buscarEmpresa{
+    width: 52.595px;
+    height: 57.835px;
+    flex-shrink: 0;
+    
+}
