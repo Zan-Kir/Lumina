@@ -16,172 +16,192 @@
         defer></script>
     <link rel="stylesheet" href="../style/style.css">
     <script src="../script.js" defer></script>
-    <link rel="icon" href="/img/whiteLogoMini.png"type="image/x-icon">
+    <script src="https://kit.fontawesome.com/0a65cbded2.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/img/whiteLogoMini.png" type="image/x-icon">
     <link rel="shortcut icon" href="/img/whiteLogoMini.png" type="image/x-icon">
 </head>
 
-<div class="body overflow-hidden">
-    <header>
-        <nav class="navbar navbar-expand-xl navbar-dark">
-            <div class="container-fluid">
-                <!-- se tirar o fluid fica quicandinho -->
-                <div class="container">
-                    <a href="" class="navbar-brand fs-4">
-                        <img src="../img/whiteLogo.png" alt="">
-                    </a>
-                </div>
-                <button class="navbar-toggler shadow-none border-1" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header justify-content-center">
-                        <div class="offcanvas-title" id="offcanvasNavbarLabel">
-                            <img src="../img/whiteLogoMini.png" alt="">
-                        </div>
-                        <!-- <div class="">
+<body>
+
+
+    <div class="body overflow-hidden">
+        <header>
+            <nav class="navbar navbar-expand-xl navbar-dark">
+                <div class="container-fluid">
+                    <!-- se tirar o fluid fica quicandinho -->
+                    <div class="container">
+                        <a href="" class="navbar-brand fs-4">
+                            <img src="../img/whiteLogo.png" alt="">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler shadow-none border-1" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header justify-content-center">
+                            <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                                <img src="../img/whiteLogoMini.png" alt="">
+                            </div>
+                            <!-- <div class="">
                         <button class="btn-close btn-close-white" type="button" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                         </div>  é o xiszinho-->
-                    </div>
-                    <div class="offcanvas-body flex-column flex-xl-row p-4 d-flex">
-                        <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
-                            <li class="nav-item mx-2">
-                                <a href="../pages/home.html" class="nav-link" aria-current="page">Home</a>
-                            </li>
-                            <li class="nav-item mx-2">
-                                <a href="../pages/sobre.html" class="nav-link active">Sobre</a>
-                            </li>
-                            <li class="nav-item mx-2">
-                                <a href="../pages/parceiros.html" class="nav-link ">Parceiros</a>
-                            </li>
-                            <li class="nav-item mx-2">
-                                <a href="../pages/blog.html" class="nav-link">Blog</a>
-                            </li>
-                            <form class="d-flex justify-content-center" role="search">
-                                <input type="search" size="10" placeholder="Buscar..." id="buscar" name="buscar"
-                                    aria-label="Search">
-                                <label for="buscar" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="45"
-                                        height="45" viewBox="0 0 45 45" fill="none">
-                                        <g clip-path="url(#clip0_8_9)">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M30.0503 31.7597C26.8611 34.5503 22.6872 36.2416 18.1208 36.2416C8.11208 36.2416 0 28.1295 0 18.1208C0 8.11208 8.11208 0 18.1208 0C28.1295 0 36.2416 8.11208 36.2416 18.1208C36.2416 22.6872 34.5503 26.8671 31.7597 30.0503L44.6436 42.9342C45.1148 43.4054 45.1148 44.1725 44.6436 44.6436C44.1725 45.1148 43.4054 45.1148 42.9342 44.6436L30.0503 31.7597ZM33.8255 18.1208C33.8255 26.7946 26.7946 33.8255 18.1208 33.8255C9.44698 33.8255 2.41611 26.7946 2.41611 18.1208C2.41611 9.44698 9.44698 2.41611 18.1208 2.41611C26.7946 2.41611 33.8255 9.44698 33.8255 18.1208Z"
-                                                fill="white" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_8_9">
-                                                <rect width="45" height="45" fill="white" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg></label>
-                            </form>
-                        </ul>
-                        <div class="d-flex justify-content-center align-items-center gap-3">
-                            <a href="../pages/registro.html" class="text-white"><input type="button" value="Login" id="loginBtn"></a>
+                        </div>
+                        <div class="offcanvas-body flex-column flex-xl-row p-4 d-flex">
+                            <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                                <li class="nav-item mx-2">
+                                    <a href="../pages/home.html" class="nav-link" aria-current="page">Home</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a href="../pages/sobre.html" class="nav-link active">Sobre</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a href="../pages/parceiros.html" class="nav-link ">Parceiros</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a href="../pages/blog.html" class="nav-link">Blog</a>
+                                </li>
+                                <form class="d-flex justify-content-center" role="search">
+                                    <input type="search" size="10" placeholder="Buscar..." id="buscar" name="buscar"
+                                        aria-label="Search">
+                                    <label for="buscar" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="45"
+                                            height="45" viewBox="0 0 45 45" fill="none">
+                                            <g clip-path="url(#clip0_8_9)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M30.0503 31.7597C26.8611 34.5503 22.6872 36.2416 18.1208 36.2416C8.11208 36.2416 0 28.1295 0 18.1208C0 8.11208 8.11208 0 18.1208 0C28.1295 0 36.2416 8.11208 36.2416 18.1208C36.2416 22.6872 34.5503 26.8671 31.7597 30.0503L44.6436 42.9342C45.1148 43.4054 45.1148 44.1725 44.6436 44.6436C44.1725 45.1148 43.4054 45.1148 42.9342 44.6436L30.0503 31.7597ZM33.8255 18.1208C33.8255 26.7946 26.7946 33.8255 18.1208 33.8255C9.44698 33.8255 2.41611 26.7946 2.41611 18.1208C2.41611 9.44698 9.44698 2.41611 18.1208 2.41611C26.7946 2.41611 33.8255 9.44698 33.8255 18.1208Z"
+                                                    fill="white" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_8_9">
+                                                    <rect width="45" height="45" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg></label>
+                                </form>
+                            </ul>
+                            <div class="d-flex justify-content-center align-items-center gap-3">
+                                <a href="../pages/registro.html" class="text-white"><input type="button" value="Login"
+                                        id="loginBtn"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </nav>
+        </header>
+        <main>
+            <div class="sobreEmpresa">
+                <div class="sobreTexto">
+                    <h2>Sobre a empresa</h2>
+                    <p>Cinco jovens universitários com diferentes habilidades e formações se uniram devido a faculdade.
+                        Eles
+                        fundaram a Lumina, uma consultoria tecnológica, com o objetivo de criar soluções excepcionais e
+                        se
+                        tornar uma referência global. A Lumina cresceu a partir de projetos universitários e se tornou
+                        uma
+                        empresa determinada a moldar o mundo da tecnologia, com um foco compartilhado no futuro e no
+                        impacto
+                        significativo na sociedade por meio de soluções tecnológicas. </p>
+                </div>
             </div>
-        </nav>
-    </header>
-    <main>
-        <div class="sobreEmpresa">
-            <div class="sobreTexto">
-                <h2>Sobre a empresa</h2>
-                <p>Cinco jovens universitários com diferentes habilidades e formações se uniram devido a faculdade. Eles
-                    fundaram a Lumina, uma consultoria tecnológica, com o objetivo de criar soluções excepcionais e se
-                    tornar uma referência global. A Lumina cresceu a partir de projetos universitários e se tornou uma
-                    empresa determinada a moldar o mundo da tecnologia, com um foco compartilhado no futuro e no impacto
-                    significativo na sociedade por meio de soluções tecnológicas. </p>
-            </div>
-        </div>
-        <div class="equipe py-5 mb-5">
-            <div class="nossaEquipe">
-                <h2>Equipe</h2>
-                <div class="sobreNos">
-                    <div class="membro">
-                        <img src="../img/equipe/fotinhas_01.png" class="fotinha">
-                        <h3>Ana Laura <br> Lazdenas</h3>
-                        <p>18 anos <br>
-                            Estudante</p>
+            <div class="equipe py-5 mb-5">
+                <div class="nossaEquipe">
+                    <h2>Equipe</h2>
+                    <div class="sobreNos">
+                        <div class="membro">
+                            <img src="../img/equipe/fotinhas_01.png" class="fotinha">
+                            <h3>Ana Laura <br> Lazdenas</h3>
+                            <p>18 anos <br>
+                                Estudante</p>
+                        </div>
+                        <div class="membro">
+                            <img src="../img/equipe/fotinhas_02.png" class="fotinha">
+                            <h3>Felipe <br>
+                                Rodrigues </h3>
+                            <p>24 anos <br>
+                                Pro player</p>
+                        </div>
+                        <div class="membro">
+                            <img src="../img/equipe/fotinhas_03.png" class="fotinha">
+                            <h3>Júlia <br>
+                                Soares</h3>
+                            <p>23 anos <br>
+                                Designer e Ilustradora</p>
+                        </div>
+                        <div class="membro">
+                            <img src="../img/equipe/fotinhas_04.png" class="fotinha">
+                            <h3>Murilo <br>
+                                Rodrigues </h3>
+                            <p>26 anos <br>
+                                Técnico de Hardware</p>
+                        </div>
+                        <div class="membro">
+                            <img src="../img/equipe/fotinhas_05.png" class="fotinha">
+                            <h3>Victor <br> Favreto</h3>
+                            <p>26 anos <br>
+                                Advogado</p>
+                        </div>
                     </div>
-                    <div class="membro">
-                        <img src="../img/equipe/fotinhas_02.png" class="fotinha">
-                        <h3>Felipe <br>
-                            Rodrigues </h3>
-                        <p>24 anos <br>
-                            Pro player</p>
+                </div>
+                <div class="missaoVisaoValores">
+                    <div class="itens text-center">
+                        <h2>Missão</h2>
+                        <p>Iluminar a sociedade por meio de integrações sustentáveis entre empresas.
+                        </p>
                     </div>
-                    <div class="membro">
-                        <img src="../img/equipe/fotinhas_03.png" class="fotinha">
-                        <h3>Júlia <br>
-                            Soares</h3>
-                        <p>23 anos <br>
-                            Designer e Ilustradora</p>
+                    <div class="itens text-center">
+                        <h2>Visão</h2>
+                        <p>Tornar-se uma referência global em consultoria tecnológica, impulsionando a inovação e o
+                            progresso em todo o mundo.</p>
                     </div>
-                    <div class="membro">
-                        <img src="../img/equipe/fotinhas_04.png" class="fotinha">
-                        <h3>Murilo <br>
-                            Rodrigues </h3>
-                        <p>26 anos <br>
-                            Técnico de Hardware</p>
-                    </div>
-                    <div class="membro">
-                        <img src="../img/equipe/fotinhas_05.png" class="fotinha">
-                        <h3>Victor <br> Favreto</h3>
-                        <p>26 anos <br>
-                            Advogado</p>
+                    <div class="itens text-center">
+                        <h2>Valores</h2>
+                        <p>
+                        <ul class="d-flex flex-column align-items-center">
+                            <li>Transparência</li>
+                            <li>Criatividade</li>
+                            <li>Inovação</li>
+                            <li>Responsabilidade social</li>
+                        </ul>
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="missaoVisaoValores">
-                <div class="itens text-center">
-                    <h2>Missão</h2>
-                    <p>Iluminar a sociedade por meio de integrações sustentáveis entre empresas.
-                    </p>
-                </div>
-                <div class="itens text-center">
-                    <h2>Visão</h2>
-                    <p>Tornar-se uma referência global em consultoria tecnológica, impulsionando a inovação e o progresso em todo o mundo.</p>
-                </div>
-                <div class="itens text-center">
-                    <h2>Valores</h2>
-                    <p><ul class="d-flex flex-column align-items-center"><li>Transparência</li>
-                        <li>Criatividade</li>
-                        <li>Inovação</li>
-                        <li>Responsabilidade social</li></ul></p>
+            <div class="parcerias d-flex justify-content-between">
+                <div class="textoParcerias">
+                    <h2>Parcerias</h2>
+                    <p>As parcerias entre tecnologia e sustentabilidade estão moldando um futuro mais verde e eficiente.
+                        Com avanços em energia limpa, IoT e inteligência artificial, a tecnologia oferece soluções para
+                        monitorar e reduzir o consumo de recursos, além de impulsionar a produção de energia renovável.
+                        Essas colaborações abrem portas para a construção de cidades inteligentes, transporte
+                        sustentável e práticas empresariais mais ecológicas, contribuindo para a preservação do meio
+                        ambiente e o bem-estar de nossa sociedade.</p>
                 </div>
             </div>
-        </div>
-        <div class="parcerias d-flex justify-content-between">
-            <div class="textoParcerias">
-                <h2>Parcerias</h2>
-                <p>As parcerias entre tecnologia e sustentabilidade estão moldando um futuro mais verde e eficiente. Com avanços em energia limpa, IoT e inteligência artificial, a tecnologia oferece soluções para monitorar e reduzir o consumo de recursos, além de impulsionar a produção de energia renovável. Essas colaborações abrem portas para a construção de cidades inteligentes, transporte sustentável e práticas empresariais mais ecológicas, contribuindo para a preservação do meio ambiente e o bem-estar de nossa sociedade.</p>
-            </div>
-        </div>
-        <div class="faleConosco w-100">
-            <h2>Fale Conosco</h2>
-            <div class="form">
-                <form action="" class="row">
-                <div class="form-floating mb-3 formSobre">
-                    <input type="text" class="form-control" placeholder="Seu Nome" id="nomeSobre">
-                    <label for="nomeSobre">Seu Nome</label>
-                  </div>
-                  <div class="form-floating mb-3 formSobre">
-                    <input type="email" class="form-control" placeholder="Seu E-mail" id="emailSobre"></input>
-                    <label for="emailSobre">Seu E-mail</label>
-                  </div>
-                  <div class="form-floating mb-3 formSobre">
-                    <textarea class="form-control" placeholder="Sua Mensagem" id="mensagemSobre" style="height: 335px"></textarea>
-                    <label for="mensagemSobre">Mensagem</label>
+            <div class="faleConosco w-100">
+                <h2>Fale Conosco</h2>
+                <div class="form">
+                    <form action="" class="row">
+                        <div class="form-floating mb-3 formSobre">
+                            <input type="text" class="form-control" placeholder="Seu Nome" id="nomeSobre">
+                            <label for="nomeSobre">Seu Nome</label>
+                        </div>
+                        <div class="form-floating mb-3 formSobre">
+                            <input type="email" class="form-control" placeholder="Seu E-mail" id="emailSobre"></input>
+                            <label for="emailSobre">Seu E-mail</label>
+                        </div>
+                        <div class="form-floating mb-3 formSobre">
+                            <textarea class="form-control" placeholder="Sua Mensagem" id="mensagemSobre"
+                                style="height: 335px"></textarea>
+                            <label for="mensagemSobre">Mensagem</label>
+                        </div>
+                        <div class="botaoFaleConosco w-100 d-flex justify-content-end">
+                            <button type="submit" class="botaoGeral mt-3">Enviar</button>
+                    </form>
                 </div>
-                <div class="botaoFaleConosco w-100 d-flex justify-content-end">
-                <button type="submit" class="botaoGeral mt-3">Enviar</button>
-            </form>
             </div>
-            </div>
-        </div>
+    </div>
     </main>
     <footer class="bd-footer mt-5">
         <div class="py-4 rodape w-100">
@@ -194,10 +214,10 @@
                 <div class="col-auto colRodape">
                     <h5>Lumina Tech Consulting</h5>
                     <p class="mb-2">
-                        +55 15 99123 4567
+                        <i class="fa-solid fa-phone"></i> +55 15 99123 4567
                     </p>
                     <p class="mb-2">
-                        Bandeiras Centro Empresarial
+                        <i class="fa-solid fa-location-dot"></i> Bandeiras Centro Empresarial
                     </p>
                     <iframe class="mapinha mb-2"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14631.418295286592!2d-47.4479711!3d-23.5377324!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf61dfbc55474b%3A0xae27b8a395b8398e!2sBandeiras%20Centro%20Empresarial!5e0!3m2!1spt-BR!2sbr!4v1700535792349!5m2!1spt-BR!2sbr"
@@ -207,10 +227,10 @@
                 <div class="col-auto colRodape">
                     <br>
                     <p class="mb-2">
-                        +55 15 99123 4567
+                        <i class="fa-brands fa-whatsapp"></i> +55 15 99123 4567
                     </p>
                     <p class="mb-2">
-                        @luminatech
+                        <i class="fa-brands fa-instagram"></i> @luminatech
                     </p>
                 </div>
                 <div class="col-auto align-self-end">
@@ -219,4 +239,6 @@
             </div>
         </div>
     </footer>
-</div>
+    </div>
+
+</body>

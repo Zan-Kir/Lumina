@@ -1,26 +1,26 @@
 {
-  let carouselInner = document.querySelector(".carouselBlog");
-  let carouselControlNext = document.querySelector(".proximoBlog");
-  let carouselControlPrev = document.querySelector(".anteriorBlog");
-  let carouselWidth = carouselInner.scrollWidth;
-  let cardWidth = document.querySelector(".itemBlog").offsetWidth;
-  let scrollPosition = 0;
+  let carouselBlog = document.querySelector(".carouselBlog");
+  let proximoBlog = document.querySelector(".proximoBlog");
+  let anteriorBlog = document.querySelector(".anteriorBlog");
+  let tamanhoCarousel = carouselBlog.scrollWidth;
+  let tamanhoCard = document.querySelector(".itemBlog").offsetWidth;
+  let posicao = 0;
   
-  carouselControlNext.addEventListener("click", function () {
-    if (scrollPosition < (carouselWidth - cardWidth * 4)) {
-      scrollPosition += cardWidth;
-      carouselInner.scrollTo({
-        left: scrollPosition,
+  proximoBlog.addEventListener("click", function () {
+    if (posicao < (tamanhoCarousel - tamanhoCard * 4)) {
+      posicao += tamanhoCard;
+      carouselBlog.scrollTo({
+        left: posicao,
         behavior: "smooth"
       });
     }
   });
   
-  carouselControlPrev.addEventListener("click", function () {
-    if (scrollPosition > 0) {
-      scrollPosition -= cardWidth;
-      carouselInner.scrollTo({
-        left: scrollPosition,
+  anteriorBlog.addEventListener("click", function () {
+    if (posicao > 0) {
+      posicao -= tamanhoCard;
+      carouselBlog.scrollTo({
+        left: posicao,
         behavior: "smooth"
       });
     }
