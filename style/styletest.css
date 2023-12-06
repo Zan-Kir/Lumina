@@ -4,7 +4,7 @@
     --cor-5: #2FAC66;
     --fundo-1: #262625;
     --ativo: #12A19A;
-    --bs-body-bg: #40403F;
+    /* --bs-body-bg: #40403F; */
 }
 
 .body {
@@ -591,77 +591,6 @@ h1 {
     color: rgb(165, 165, 165);
 }
 
-<<<<<<< HEAD
-.perfilFoto {
-    border-radius: 50%;
-    width: 85%;
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.40);
-    margin: 10%;
-}
-
-.perfilNome {
-    color: var(--branco, #FFF);
-    font-family: Poppins;
-    font-size: 250%;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-
-}
-
-.perfilCargo {
-    
-    color: var(--branco, #FFF);
-    font-family: Poppins;
-    font-size: 170%;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-
-}
-
-.perfilEmpresa {
-    color: #2FAC66;
-    font-family: Poppins;
-    font-size: 110%;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-
-}
-
-#perfil {
-    background-color: #40403F;
-}
-
-#perfil h5 {
-    margin-left: 10%;
-}
-
-#perfil p {
-    color:#FFFFFF;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    font-family: Poppins;
-    font-size:medium;
-    font-weight: 100;
-    text-align:justify ;
-    line-height: 155%;
-
-}
-
-.perfilMensagens {
-    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.40) ;
-    
-}
-.perfilMsgimg {
-    width: 100%;
-}
-
-.perfilMsg h1 {
-    text-align: left;
-}
-=======
 .textoParceiros h2 {
     color: #12A19A;
     font-family: Poppins;
@@ -813,4 +742,135 @@ h1 {
     border-radius: 100px;
     justify-content: center;
 }
->>>>>>> 115bae5edd6faf4866f5a736d47b497d187e3943
+
+.perfilFoto {
+    border-radius: 50%;
+    width: 85%;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.40);
+    margin: 10%;
+}
+
+.perfilNome {
+    color: var(--branco, #FFF);
+    font-family: Poppins;
+    font-size: 250%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.perfilCargo {
+
+    color: var(--branco, #FFF);
+    font-family: Poppins;
+    font-size: 170%;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.perfilEmpresa {
+    color: #2FAC66;
+    font-family: Poppins;
+    font-size: 110%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+#perfil {
+    background-color: #40403F;
+}
+
+#perfil h5 {
+    margin-left: 10%;
+}
+
+#perfil p {
+    color:#FFFFFF;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: Poppins;
+    font-size:medium;
+    font-weight: 100;
+    text-align:justify ;
+    line-height: 155%;
+
+}
+
+.perfilMensagens {
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.40) ;
+
+}
+.perfilMsgimg {
+    width: 100%;
+}
+
+div .formsCadastro form {
+    border: 2px solid;
+    width: 835px;
+    height: 800px;
+    top: 326px;
+    left: 839px;
+    border-radius: 10px;
+    background-color: var(--fundo-1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 43px;
+    margin-right: 50px;
+}
+
+.textCadastro h3{
+    justify-content: center;
+    margin-top: 71px;
+    height: 41px;
+    margin-bottom: 120px;
+}
+
+.bemVindo h2{
+    justify-content: center;
+    margin-top: 100px;
+    height: 41px;
+    margin-bottom: 120px;
+}
+
+.formularioCadastro .col-form-label{
+    margin-bottom: 38px;
+}
+
+/* div .container-fluid{ */
+div .divMae{
+    width: 1558px;
+    height: 820px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+div .bemVindo .btnLogin{
+    margin-bottom: 45px;
+}
+
+.risquinho {
+    border: 0;
+    height: 2px;
+    background: #A0BB9C;
+    /* opacity: 1; */
+  }
+
+div .or{
+    font-size: 28px;
+    text-align: center;
+}
+
+div .welcome path{
+    margin-right: 20px;
+    width: 33px;
+    height: 39px;
+    flex-shrink: 0;
+}
+
+div .welcome svg path{
+    margin-right: 15px;
+}
