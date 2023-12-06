@@ -811,15 +811,13 @@ h1 {
 
 div .formsCadastro form {
     border: 2px solid;
-    width: 835px;
-    height: 800px;
-    top: 326px;
-    left: 839px;
+    width: 100%;
+    padding-bottom: 30%;
     border-radius: 10px;
     background-color: var(--fundo-1);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 43px;
-    margin-right: 50px;
+    
 }
 
 .textCadastro h3{
@@ -842,11 +840,12 @@ div .formsCadastro form {
 
 /* div .container-fluid{ */
 div .divMae{
-    width: 1558px;
-    height: 820px;
+    /* width: 1558px;
+    height: 820px; */
     flex-shrink: 0;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 5%;
+    
 }
 div .bemVindo .btnLogin{
     margin-bottom: 45px;
@@ -873,4 +872,25 @@ div .welcome path{
 
 div .welcome svg path{
     margin-right: 15px;
+}
+.fundinRegistro{
+    background-color: #111113e5;
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+.zikaMargem{
+    margin-right: 3%;
+}
+
+.imagemBaixo{
+    margin-bottom: 0%;
+    padding: 0px;
+}
+
+.baixoImg{
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 2%;
 }
